@@ -1,8 +1,8 @@
 package caja_de_mercado_central;
 
 public class Producto implements StockDecrementable, PrecioCalculable{
-	Integer stock;
 	double precioBase;
+	Integer stock;
 	
 	public Producto(Integer _stock, Double _precioBase) {
 		this.stock = _stock;
